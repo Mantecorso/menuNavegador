@@ -5,6 +5,6 @@ window.addEventListener('load', function() {
 
     cambioA.addEventListener('click', function() {
         cambioB.classList.toggle('active');
-        
+        cambioA.classList.toggle('active');
     })
 })

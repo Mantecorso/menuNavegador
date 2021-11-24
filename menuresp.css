@@ -28,6 +28,7 @@ body {
 .enlaces {
     margin: 0;
     padding: 0;
+    background: #333;
     /* display: flex; */
 }
 
@@ -119,6 +120,8 @@ body {
 
     .enlaces {
         width: 100%;
+        display: none;
+        transition: .5s;
     }
 
     .navegador {
